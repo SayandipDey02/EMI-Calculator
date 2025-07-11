@@ -70,7 +70,7 @@ const Emi = () => {
                     </TableRow>
                 </TableBody>
             </Table>
-        </div>
+        </div> 
     );
 };
 

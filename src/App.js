@@ -6,8 +6,8 @@ import Table from './component/table';
 function App() {
   return (
     <div className="App">
-      <Emi />
-      <Table />
+      <Emi /> {/* EMI Calculator Component */}
+      <Table /> {/* EMI Data Table Component */}
       {/* Additional components or content can be added here */}
     </div>
   );

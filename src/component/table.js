@@ -23,14 +23,13 @@ function EmiTable({ emiData = [] }) {
               <TableCell>{emi.emi}</TableCell>
             </TableRow>
           ))
-        )
-            : (
-                <TableRow>
-                <TableCell colSpan={4} align="center">
-                    No EMI data available
-                </TableCell>
-                </TableRow>
-            )}
+        ) : (
+          <TableRow>
+            <TableCell colSpan={4} align="center">
+              No EMI data available
+            </TableCell>
+          </TableRow>
+        )}
       </TableBody>
     </Table>
   );
